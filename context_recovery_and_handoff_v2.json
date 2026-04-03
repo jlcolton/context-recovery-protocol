@@ -1,0 +1,16 @@
+{
+  "protocol_id": "context_recovery_and_handoff_v2",
+  "purpose": "Maintain agent performance by managing context and preserving state",
+  "trigger": {
+    "threshold_percent": 50
+  },
+  "workflow": [
+    "detect",
+    "handoff",
+    "compact",
+    "restore"
+  ],
+  "attribution": {
+    "inspiration": "Tim Reilly (@tldr on Farcaster)"
+  }
+}
